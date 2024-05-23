@@ -98,7 +98,8 @@ Add-on based on **Mikal's** sample from this [thread](https://www.construct.net/
 #### Please report issues to: [Issues](https://github.com/gritsenko/c3_spine_plugin/issues)
 
 ## Example project, simple load and multi-track animation and bone control
-[SpineboyAim.c3p](https://github.com/gritsenko/c3_spine_plugin/releases/download/2.8.2/SpineboyAim.c3p)
+[SpineboyAimControl.c3p](https://github.com/MikalDev/c3_spine_plugin/releases/download/2.9.1/SpineboyAimControl.c3p)
+
 [SpineMixandMatch-4-1.c3p](https://github.com/gritsenko/c3_spine_plugin/releases/download/2.8.2/SpineMixandMatch-4-1.c3p)
 
 ## LIVE DEMO
@@ -139,6 +140,7 @@ Add-on based on **Mikal's** sample from this [thread](https://www.construct.net/
 - Preview Spine render in editor (dependent on C3 editor SDK updates)
 
 ## Release notes
+- 2.9.1 Fix physics updates
 - 2.9.0 Add 4.2 support (physics)
 - 2.8.2 Fix C3 r234 compatability, fix set region ACE for 4.1 Spine SDK
 - 2.8.0 Add script interface for setSkin, flip
