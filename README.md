@@ -1,4 +1,6 @@
-# Spine 4.2 add-on for Construct 3 - Must use Spine 4.2 export format
+# Spine 4.2 add-on for Construct 3
+## Must use Spine 4.2 export format
+## Only WebGL Supported (see C3 project settings)
 
 ### Please support development of the C3 Spine plugin (thanks to all those kind folks who have donated so far!)
 
