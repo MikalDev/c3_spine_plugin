@@ -11,7 +11,7 @@ If paypal does not work, you can try:
 
 ## Important notes for Spine export files:
 - Requires Spine version 4.2.x Spine JSON files. 
-- Spine 4.2.x JSON files require 2.4+ C3 addon version.
+- Spine 4.2.x JSON files require 2.9+ C3 addon version.
 - When exporting from Spine 4.2 use 4.2 export format.
 - In the Spine export dialogue box, under Runtime, set both 'Filter min' and 'Filter mag' to Linear or Nearest.
 - In the Packing settings, set Region Padding to 2 or higher (if you see lines around your images, it may be because padding is set to 0).
@@ -88,9 +88,9 @@ Instead if you want to use a Spine position to reference in C3, you should add a
 Add-on based on **Mikal's** sample from this [thread](https://www.construct.net/en/forum/construct-3/general-discussion-7/spine-animation-js-template-145940) 
 
 ## Downloads
-[Current Add-on, Release 2.8.2, Spine 4.2 supported](https://github.com/gritsenko/c3_spine_plugin/releases/download/2.9.0/Spine-v2.9.0.c3addon)
+[Current Add-on, Release 2.9.1, Spine 4.2 supported](https://github.com/MikalDev/c3_spine_plugin/releases/tag/2.9.1)
 
-[Previous Add-on Releases](https://github.com/gritsenko/c3_spine_plugin/releases)
+[Previous Add-on Releases](https://github.com/MikalDev/c3_spine_plugin/releases/)
 #### Please support development of the C3 Spine plugin for Spine 4.x
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=T8VV6CJVP3X3S)
 #### Please report issues to: [Issues](https://github.com/gritsenko/c3_spine_plugin/issues)
@@ -101,12 +101,6 @@ Add-on based on **Mikal's** sample from this [thread](https://www.construct.net/
 
 ## LIVE DEMO
 [Live Demo](https://gritsenko.github.io/c3_spine_plugin/docs/LiveDemo/index.html)
-
-## Spine Formatter (3.3+ to 3.8 JSON Format)
-Useful for Dragon Bones Spine JSON export and earlier Spine versions.
-Note that only addon version 1.x support 3.8 JSON Format
-
-[Spine Formatter](https://gritsenko.github.io/c3_spine_plugin/formatter/index.html)
 
 ## Current supported features
 - Load Spine json, atlas and pngs.
