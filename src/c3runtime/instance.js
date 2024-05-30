@@ -1306,6 +1306,20 @@
             this.SetRenderOnce(1.0, true, this.uid);
         }
 
+        _setSlotColor(slotName, color) {
+            if (!this.skeletonInfo || !this.skeletonInfo.skeleton) {
+                if (this.debug) console.warn('[Spine] SetSkin, no skeleton.', slotName, this.uid, this.runtime.GetTickCount());
+                return;
+            }
+
+            this.slotColors[slotName] = color;
+        }
+
+        _setAttachment(slotName, attachmentName) {
+            const skeleton = this.skeletonInfo.skeleton;
+            skeleton.setAttachment(slotName,attachmentName);
+        }
+
         _flip(isFlipped)
         {
             this.isMirrored = isFlipped;
@@ -1395,6 +1409,14 @@
         setSkin(skinName)
         {
             map.get(this)._setSkin(skinName)
+        }
+
+        setSlotColor(slotName, color) {
+            map.get(this)._setSlotColor(slotName, color)
+        }
+
+        setAttachment(slotName, attachmentName) {
+            map.get(this)._setAttachment(slotName, attachmentName)
         }
 
         flip(isFlipped)
