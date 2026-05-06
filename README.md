@@ -1,6 +1,6 @@
 # Spine 4.2 add-on for Construct 3
-## Must use Spine 4.2 export format
-## Only WebGL Supported (see C3 project settings)
+### Must use Spine 4.2 export format
+### Only WebGL Supported (see C3 project settings)
 
 ## Now see the official Esoteric SW Addon for Spine!
 ## https://github.com/EsotericSoftware/spine-runtimes/issues/2910
