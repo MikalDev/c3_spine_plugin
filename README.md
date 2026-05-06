@@ -2,14 +2,8 @@
 ## Must use Spine 4.2 export format
 ## Only WebGL Supported (see C3 project settings)
 
-### Please support development of the C3 Spine plugin (thanks to all those kind folks who have donated so far!)
-
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=T8VV6CJVP3X3S)
-
-If paypal does not work, you can try:
-<figure><a href="https://ko-fi.com/E1E2IQX8E" target="_blank"><img height="36" style="border:0px;height:36px;" src="https://storage.ko-fi.com/cdn/kofi2.png?v=3" border="0" alt="Buy Me a Coffee at ko-fi.com"></a></figure>
-
-- Commisions for specific new features are also accepted, contact Mikal via Twitter @kindeyegames or the Construct Community Discord server (Mikal).
+## Now see the official Esoteric SW Addon for Spine!
+## https://github.com/EsotericSoftware/spine-runtimes/issues/2910
 
 ## Important notes for Spine export files:
 - Requires Spine version 4.2.x Spine JSON files. 
